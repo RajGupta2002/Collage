@@ -40,7 +40,7 @@ public:
     }
     friend void print();
 };
-void print(student ob, marks ob1)
+friend void print(student ob, marks ob1)
 {
     cout << endl
          << "*****************************************************" << endl
